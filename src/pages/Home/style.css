@@ -1,0 +1,15 @@
+.home-page-text {
+  /* text-align: center; */
+  position:absolute;
+  top: 50%;
+  left: 49%;
+  margin-top:-50px;  
+  margin-left:-100px;
+}
+
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+  color: #706C61;
+}

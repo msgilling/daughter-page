@@ -1,0 +1,41 @@
+/* .container {
+  display: flex;
+} */
+
+.card-container {
+  /* max-width: 1200px; */
+  /* display: grid; */
+}
+
+.card {
+  border-radius: 15px;
+  width: 16rem;
+  height: 26rem;
+  margin: 0 auto;
+}
+
+
+img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  filter: grayscale(80%)
+}
+
+img:hover {
+  filter: grayscale(0);
+}
+
+h2, p {
+  color: #706C61;
+}
+
+h2 {
+  text-transform: lowercase;
+  font-size: 28px;
+  letter-spacing: 2px;
+  
+}
+
+p {
+  font-weight: 600;
+}
