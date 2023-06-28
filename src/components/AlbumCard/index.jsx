@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Container, Card, ToggleButton } from 'react-bootstrap'
+import { Row, Col, Container, Card } from 'react-bootstrap'
 import './style.css'
 import LikeButton from "../LikeButton";
 
@@ -17,7 +17,6 @@ const AlbumCard = () => {
             <div className="card-body">
               <h2>Stereo Mind Games</h2>
               <p>2023</p>
-            <ToggleButton/>
             </div>
             <LikeButton/>
           </Card>
