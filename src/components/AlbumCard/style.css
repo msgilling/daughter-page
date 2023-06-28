@@ -2,7 +2,7 @@
 .card {
   border-radius: 15px;
   width: 16rem;
-  height: 26rem;
+  height: 24rem;
   margin: 0 auto;
 }
 
@@ -23,8 +23,8 @@ h2, p {
 
 h2 {
   text-transform: lowercase;
-  font-size: 28px;
-  letter-spacing: 2px;
+  font-size: 20px;
+  letter-spacing: 1px;
   
 }
 

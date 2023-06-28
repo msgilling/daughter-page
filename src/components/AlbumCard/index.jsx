@@ -1,8 +1,7 @@
 import React from "react";
-import { Row, Col, Container, Card } from 'react-bootstrap'
+import { Row, Col, Container, Card, ToggleButton } from 'react-bootstrap'
 import './style.css'
-
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import LikeButton from "../LikeButton";
 
 const AlbumCard = () => {
 
@@ -18,9 +17,9 @@ const AlbumCard = () => {
             <div className="card-body">
               <h2>Stereo Mind Games</h2>
               <p>2023</p>
-              {/* <FontAwesomeIcon iconName="fa-regular fa-heart" /> */}
+            <ToggleButton/>
             </div>
-
+            <LikeButton/>
           </Card>
 
           
@@ -33,7 +32,7 @@ const AlbumCard = () => {
               <h2>If You Leave</h2>
               <p>2013</p>
             </div>
-
+            <LikeButton/>
           </Card>
         </Col>
     
@@ -44,7 +43,7 @@ const AlbumCard = () => {
               <h2>Music from Before the Storm</h2>
               <p>2017</p>
             </div>
-
+            <LikeButton style={{ marginTop:'-100px'}}/>
           </Card>
         </Col>
       {/* </Row>
@@ -57,7 +56,7 @@ const AlbumCard = () => {
               <h2>How Not to Disappear</h2>
               <p>2016</p>
             </div>
-
+            <LikeButton/>
           </Card>
         </Col>
 
@@ -68,7 +67,18 @@ const AlbumCard = () => {
               <h2>The Wild Youth</h2>
               <p>2011</p>
             </div>
+            <LikeButton/>
+          </Card>
+        </Col>
 
+        <Col xl={4} lg={6}>
+          <Card>
+            <img src="https://upload.wikimedia.org/wikipedia/en/3/35/Hisyoungheart.jpg" alt="" />
+            <div className="card-body">
+              <h2>His Young Heart</h2>
+              <p>2011</p>
+            </div>
+            <LikeButton/>
           </Card>
         </Col>
 
