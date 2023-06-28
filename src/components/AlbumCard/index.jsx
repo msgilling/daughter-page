@@ -2,6 +2,7 @@ import React from "react";
 import { Row, Col, Container, Card } from 'react-bootstrap'
 import './style.css'
 import LikeButton from "../LikeButton";
+import LikeButtonTwo from "../LikeButtonTwo";
 
 const AlbumCard = () => {
 
@@ -42,7 +43,7 @@ const AlbumCard = () => {
               <h2>Music from Before the Storm</h2>
               <p>2017</p>
             </div>
-            <LikeButton style={{ marginTop:'-100px'}}/>
+            <LikeButtonTwo/>
           </Card>
         </Col>
       {/* </Row>
