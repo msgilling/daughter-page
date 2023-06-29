@@ -1,0 +1,9 @@
+.footer-container {
+  background-color: #908b7c;
+  position: fixed;
+  left:0;
+  bottom:0;
+  right:0;
+  height: 10vh;
+  margin-top: 100px;
+}
