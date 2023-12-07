@@ -1,7 +1,7 @@
 import React from 'react'
 import { Outlet, NavLink } from 'react-router-dom'
 import './style.css'
-import logo from '/vinyl.png'
+import logo from '../../assets/vinyl.png'
 
 const NavBar = () => {
   return (
