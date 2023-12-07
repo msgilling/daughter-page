@@ -16,3 +16,16 @@
 - `npm create vite@latest . -- --template react`
 - `npm install`
 - `npm run dev`
+
+## File Structure
+```
+components -- AlbumCard
+           -- LikeButton
+           
+layout     -- Footer
+           -- NavBar
+           -- AboutPage
+           -- AlbumPage
+           -- Home
+           -- NotFound
+```

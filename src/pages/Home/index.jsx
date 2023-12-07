@@ -6,7 +6,7 @@ const Home = () => {
   const navigate = useNavigate()
   return (
     <div className="home-page-text">
-      <h1>Daughter</h1>
+      <h1>Hi, {} welcome to the Daughter app</h1>
         <input className="enter-btn" type="submit" value="Enter" onClick={() => navigate('/about')}/>
       
     </div>

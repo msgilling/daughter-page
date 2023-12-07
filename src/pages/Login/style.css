@@ -1,22 +1,25 @@
-.home-page-text {
+.login-page-text {
   /* text-align: center; */
   position:absolute;
   top: 50%;
-  left: 32%;
+  left: 49%;
   margin-top:-50px;  
   margin-left:-100px;
 }
 
-h1 {
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-weight: 700;
-  color: #706C61;
+label {
+  padding: 10px;
 }
 
-.enter-btn {
+input {
+  margin-right: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px solid #908b7c;
+}
+.submit-btn {
   margin-top: 10px;
-  padding: 5px 95px 5px 95px;
+  padding: 5px;
   border: #908b7c solid 1px;
   border-radius: 5px;
   text-transform: lowercase;
@@ -25,6 +28,6 @@ h1 {
   color: #F8F4E3;
 }
 
-.enter-btn:hover {
+.submit-btn:hover {
   background-color: #706C61;
 }
